@@ -42,4 +42,4 @@ I’m studying JS/Frontend.STAGE0 course (RS School). It’s my the first experi
 
 My English is on an elementary level. Now I’m studying English myself with the help of Lingualeo, Duolingo and Youtube Chanels.
 
-![rsschool](https://github.com/proksushu/rsschool-cv/blob/gh-pages/images/logo-rsschool3.png)
+![rsschool](https://github.com/proksushu/rsschool-cv/blob/gh-pages/images/logo-rsschool3.jpg)
