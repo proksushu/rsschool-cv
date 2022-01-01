@@ -70,23 +70,23 @@ code {
 }
 
 .item--birth::before{
-  background-image: url("images-cv-html/icon_cake.png");
+  background-image: url("../images-cv-html/icon_cake.png");
 }
 
 .item--phone::before{
-  background-image: url("images-cv-html/icons_telephone.jpg");
+  background-image: url("../images-cv-html/icons_telephone.jpg");
 }
 
 .item--email::before{
-    background-image: url("images-cv-html/icons-email.png");
+    background-image: url("../images-cv-html/icons-email.png");
 }
 
 .item--telegram::before {
-    background-image: url("images-cv-html/icons-telegram.jpg");
+    background-image: url("../images-cv-html/icons-telegram.jpg");
 }
 
 .item--discord::before{
-  background-image: url("images-cv-html/icons_discord.png");
+  background-image: url("../images-cv-html/icons_discord.png");
 }
 
 .item a{
@@ -195,7 +195,7 @@ text-decoration: none;
 
 .footer__icon-github::before {
   content: "";
-  background-image: url("images-cv-html/icon-github.jpg");
+  background-image: url("../images-cv-html/icon-github.jpg");
   background-repeat: no-repeat;
   width: 40px;
   height: 40px;
