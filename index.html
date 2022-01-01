@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <title>Resume: Oksana Promanenkova</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="wrapper">
+      <div class="header__inner">
+        <div class="header__inner-info">
+          <h1>Hello, I am Oksana Promanenkova</h1>
+          <h2>Front-end Developer</h2>
+          <ul class="items">
+            <li class="item item--birth">Date of birth: 20 July, 1982</li>
+            <li class="item item--phone">Tel: <a href="tel:+375291516414">+375 29 151 64 14</a> </li>
+            <li class="item item--email">Email: <a href="mailto:proksushu@yandex.ru"> proksushu@yandex.ru</a></li>
+            <li class="item item--telegram">Telegram: @oksa.sw</li>
+            <li class="item item--discord">Discord: Oksana Promanenkova(@proksushu)</li>
+          </ul>
+        </div>
+        <figure>
+          <img src="images-cv-html/myphoto.jpg" alt="photo">
+        </figure>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="wrapper">
+    <nav class="navigation">
+      <button class="menu__btn"><img src="images-cv-html/menu__btn.svg" alt="menu button"></button>
+        <ul class="menu__list">
+          <li><a href="#about">About me</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Work experience</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="#projects">My projects</a></li>
+          <li><a href="#languages">Languages</a></li>
+        </ul>
+    </nav>
+    </div>
+    <section class="section" id="about">
+      <div class="wrapper">
+        <h2>About me</h2>
+        <p>I am 39 y.o., married, have the daughter (14 y.o.) and the son (10 y.o.).
+          More then 15 years I have been working as an accounter.
+          Now I am a Chief Accountant in an industrial organization.
+          I like to study something new. I like sport and healthy lifestyle.
+          I like to work and to see the results of my work.
+          I like to be usefull for another people. Now I want to change my profession.
+          I am interesting in computer technologies and want to try myself as a programmist.
+          Programming languages are difficult for learning but they are very interesting for me.
+          I like hard purposes.
+        </p>
+        <p>My favorite phrase is: "That which does not kill us makes us stronger".</p>
+      </div>
+    </section>
+    <section class="section" id="education">
+      <div class="wrapper">
+        <h2>Education</h2>
+        <h4>1999-2004</h4>
+        <p>Belarusian State Economic Iniversity.</p>
+        <p>Specialization: Accounting and Economics, bachelor’s degree</p>
+      </div>
+    </section>
+    <section class="section" id="experience">
+      <div class="wrapper">
+        <h2>Work experience</h2>
+        <p>Working as an accountant,
+          I noticed that I was very interested in programs from the inside.
+          I always liked to study the configuration.</p>
+        <h2>Skills</h2>
+        <p>I’m studying JS/Frontend.STAGE0 course (RS School). It’s my the first experience in programming. Now I am
+          studying:</p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Git</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="hobbies">
+      <div class="wrapper">
+        <h2>Hobbies and Interests</h2>
+        <ul>
+          <li>Psychology</li>
+          <li>Economics</li>
+          <li>Fitness</li>
+          <li>Helth and nutrition</li>
+          <li>Knitting</li>
+        </ul>
+      </div>
+    </section>
+    <section class="section" id="code">
+      <div class="wrapper">
+        <h2>Code example</h2>
+        <div class="code">
+          <code>
+         
+function capitalizeFirstLetter(str) {
+return str.charAt(0).toUpperCase() + str.slice(1);
+}
+<br>
+<br>
+console.log(capitalizeFirstLetter('you are the best'));
+            
+           </code>
+        </div>
+
+      </div>
+    </section>
+    <section class="section projects" id="projects">
+      <div class="wrapper">
+        <h2>My projects</h2>
+        <p>With the help of Youtube I have done some pages</p>
+        <div class="project__items">
+          <div class="project__item">
+            <a href="https://productly-self-education.netlify.app/"><img src="images-cv-html/productly.jpg"
+                alt="productly"></a>
+          </div>
+          <div class="project__item">
+            <a href="https://marketing-selfeducation.netlify.app/"><img src="images-cv-html/marketing.jpg"
+                alt="marketing"></a>
+          </div>
+          <div class="project__item">
+            <a href="https://first-slider-wisky.netlify.app/"><img src="images-cv-html/slider.jpg" alt="slider"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="languages">
+      <div class="wrapper">
+        <h2>Languages</h2>
+        <h4>Russian</h4>
+        <p>Native</p>
+        <h4>English</h4>
+        <p>Elementary Level. Now I’m studying English myself with the help of Lingualeo and Duolingo. I believe that
+          I’ll speak and understand English in the future.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="wrapper">
+      <div class="footer__inner">
+        <a class="footer__icon-github" href="https://github.com/proksushu">Proksushu</a>
+        <h3>2021</h3>
+        <a href="https://rs.school/js/"><img src="images-cv-html/rs_school_js.svg" alt="RS School"></a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
