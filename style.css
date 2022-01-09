@@ -1,0 +1,351 @@
+html {
+  box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Urbanist', sans-serif;
+    color: #535151;
+    margin: 0 auto;
+}
+
+
+h1 {
+    font-size: 48px;
+    color: #b4810b;
+}
+
+h2 {
+    font-size: 34px;
+}
+
+h3 {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+h4 {
+    font-size: 18px;
+    color: #b4810b;
+}
+
+code {
+  font-size: 16px;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.section {
+    box-shadow: 0px 4px 10px #979393;
+    padding: 0 30px 15px 30px;
+    text-align: justify;
+}
+
+
+.header__inner {
+    display: flex;
+    align-items: center;
+}
+
+.items{
+  list-style: none;
+  position: relative;
+}
+
+.item {
+  padding-bottom: 10px;
+}
+
+.item::before{
+  content: "";
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
+  position: absolute;
+  left: 5px;
+}
+
+.item--birth::before{
+  background-image: url("images-cv-html/icon_cake.png");
+}
+
+.item--phone::before{
+  background-image: url("images-cv-html/icons_telephone.jpg");
+}
+
+.item--email::before{
+    background-image: url("images-cv-html/icons-email.png");
+}
+
+.item--telegram::before {
+    background-image: url("images-cv-html/icons-telegram.jpg");
+}
+
+.item--discord::before{
+  background-image: url("images-cv-html/icons_discord.png");
+}
+
+.item a{
+  color: #535151;
+  text-decoration: none;
+}
+
+.item--phone a,
+.item--email a
+{
+  color: #b4810b;
+  font-weight: 500;
+}
+
+.navigation {
+    text-align: right;
+    background: #b4810b; 
+}
+
+.menu__btn {
+  display: none;
+}
+
+.menu__list{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    max-width: 1000px;
+}
+
+.menu__list li {
+  list-style: none;
+}
+
+.menu__list a {
+    text-decoration: none; 
+    font-size: 24px;
+    color: #ffffff;
+    transition: all .5s;
+   }
+
+.menu__list a:hover {
+color: #535151;
+text-decoration: none;
+}
+
+.code {
+    overflow: auto;
+    width: 450px;
+    background-color: rgb(44, 43, 43);
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.project__items{
+  display: flex;
+  justify-content: space-between;
+}
+
+.project__item{
+  width: 280px;
+  height: 210px;
+  text-align: center;
+  transition: all .3s;
+  border: 3px solid #ffffff;
+}
+
+.project__item img{
+  width: 270px;
+  height: 205px;
+}
+
+.project__item{
+  transition: all .5s;
+}
+
+.project__item:hover{
+  border: 3px solid #beb7b7;
+}
+
+.footer {
+    background: #b4810b;
+    padding: 2px;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.footer__inner a{
+  text-decoration: none;
+  color: #ffffff;
+  padding-left: 70px;
+  font-size: 22px;
+}
+
+.footer__inner img{
+  width: 40px;
+  padding-right: 15px;
+}
+
+.footer__icon-github::before {
+  content: "";
+  background-image: url("images-cv-html/icon-github.jpg");
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  background-size: 40px 40px;
+  position: absolute;
+  left: 5px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+@media (max-width: 1040px) {
+  body {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  h1 {
+      font-size: 34px;
+      color: #b4810b;
+  }
+  h2 {
+      font-size: 28px;
+  }
+  h3 {
+      font-size: 18px;
+      color: #ffffff;
+  }
+  h4 {
+      font-size: 16px;
+      color: #b4810b;
+  }
+  code {
+    font-size: 14px;
+  }
+  
+.menu__list a {
+    font-size: 22px;
+   }
+
+}
+
+@media (max-width: 915px){
+  .project__items {
+    flex-direction: column;
+    align-items: center;
+  }
+  figure img{
+    width: 260px;
+  }
+
+  .project__item,
+  .project__item img{
+  width: 80%;
+  height: 80%;
+}
+
+}
+
+@media (max-width: 880px){
+
+ .menu__btn {
+  display: block;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  position: relative;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.menu__list {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 974px;
+  display: block;
+  text-align: center;
+  transform: translateY(-430%);
+  transition: all .5s;
+  padding-top: 20px;
+  background-color: #b4810b;
+  
+}
+
+.menu__list li {
+  margin-bottom: 20px;
+}
+.menu__list.menu__list--active {
+  transform: translate(-200%);
+}
+
+@media (max-width: 730px){
+  .menu__list.menu__list--active {
+  transform: translateY(-195%);
+}
+
+.footer__inner a{
+  font-size: 18px;
+}
+}
+
+@media (max-width: 652px){
+  .menu__list.menu__list--active {
+  transform: translateY(-180%);
+}
+}
+
+@media (max-width: 632px){
+  .menu__list.menu__list--active {
+  transform: translateY(-169%);
+}
+}
+
+@media (max-width: 560px){
+  .header__inner{
+    flex-direction: column-reverse;
+  }
+  
+.code {
+  font-size: 14px;
+  width: 100%;
+}
+.menu__list.menu__list--active {
+  transform: translateY(-101%);
+}
+}
+
+@media (max-width: 548px){
+  .menu__list.menu__list--active {
+  transform: translateY(-88%);
+}
+}
+
+@media (max-width: 388px){
+  .menu__list.menu__list--active {
+  transform: translateY(-81%);
+}
+.footer__icon-github::before {
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+}
+}
+
+@media (max-width: 350px){
+.footer__inner a{
+  font-size: 12px;
+}
+h3 {
+  font-size: 14px;
+}
+
+}
+}
